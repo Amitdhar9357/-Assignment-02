@@ -1,0 +1,114 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+*{
+  margin: 0;
+  padding: 0;
+}
+.inter-font{
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+
+/* shared styles */
+.nav-bg{
+  border-radius: 46px;
+  background: rgb(230, 83, 60);
+}
+
+.bg-color{
+  /* background:  linear-gradient(90.00deg, rgb(17, 17, 17),rgba(119, 119, 119, 0) 100%); */
+  /* background:  linear-gradient(180.00deg, rgb(17, 17, 17),rgba(119, 119, 119, 0) 100%); */
+  background: linear-gradient(180.00deg, rgba(65, 65, 65, 0.938),rgba(119, 119, 119, 0) 100%);
+}
+.btn-primary{
+  width: 200px;
+  height: 40px;
+  color: rgb(255, 255, 255);
+  font-size: 1rem;
+  font-weight: 600;
+  border: none;
+  border-radius: 42px;
+  background: rgb(230, 83, 60);
+  margin-top: 25px;
+}
+.background-color{
+  background-color: rgba(0, 0, 0, 0.966);
+}
+
+
+/* nav section */
+.navbar{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0px 180px;
+}
+.brand{
+  color: rgb(230, 83, 60);  
+  font-size: 2.20rem;
+  font-weight: 800;
+  margin-top: 20px;
+}
+.nav-links{
+  display: flex;
+  margin-top: 20px;
+  
+}
+.nav-item{
+  list-style: none;
+  margin: 0 30px;
+
+
+}
+
+.nav-link{
+  color: rgb(255, 255, 255);
+  font-size: 1rem;
+  font-weight: 400;
+  text-decoration: none;
+}
+
+/* banner section */
+.banner{
+  max-width: 1060px;
+  border: 1px solid aqua;
+  display: flex;
+  align-items: center;
+  margin: 0 auto;
+  gap: 100px;
+}
+
+.banner-content{
+  border: 1px solid yellow;
+  max-width: 520px;
+  /* margin: auto 180px; */
+}
+.banner-title{
+  color: rgb(255, 255, 255);
+  font-size: 4rem;
+  font-weight: 900;
+}
+
+.banner-description{
+  color: rgba(255, 255, 255, 0.5);
+  font-size: 1rem;
+  font-weight: 400;
+  letter-spacing: 0.5px;
+}
+.btn{
+  width: 200px;
+  height: 50px;
+  border: 2px solid white;
+  border-radius: 42px;
+  color: white;
+  font-size: 1rem;
+  font-weight: 600;
+  background: none;
+  margin-top: ;
+}
+.banner-img{
+  border: 1px solid salmon; 
+  height: 480px;
+}
