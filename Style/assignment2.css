@@ -12,11 +12,6 @@
 }
 
 /* shared styles */
-.nav-bg{
-  border-radius: 46px;
-  background: rgb(230, 83, 60);
-}
-
 .bg-color{
   /* background:  linear-gradient(90.00deg, rgb(17, 17, 17),rgba(119, 119, 119, 0) 100%); */
   /* background:  linear-gradient(180.00deg, rgb(17, 17, 17),rgba(119, 119, 119, 0) 100%); */
@@ -40,10 +35,13 @@
 
 /* nav section */
 .navbar{
+  max-width: 1060px;
   display: flex;
   justify-content: space-between;
   align-items: center;
-  margin: 0px 180px;
+  margin: 0 auto;
+  
+  margin-bottom: 20px;
 }
 .brand{
   color: rgb(230, 83, 60);  
@@ -51,18 +49,25 @@
   font-weight: 800;
   margin-top: 20px;
 }
+
 .nav-links{
   display: flex;
   margin-top: 20px;
-  
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  border-radius: 36px;
+  padding: 5px 0px;
 }
 .nav-item{
   list-style: none;
-  margin: 0 30px;
-
-
+  margin: auto 20px;
 }
-
+.nav-btn{
+  width: 70px;
+  height: 30px;
+  border: none;
+  border-radius: 46px;
+  background: rgb(230, 83, 60);
+}
 .nav-link{
   color: rgb(255, 255, 255);
   font-size: 1rem;
@@ -73,7 +78,6 @@
 /* banner section */
 .banner{
   max-width: 1060px;
-  border: 1px solid aqua;
   display: flex;
   align-items: center;
   margin: 0 auto;
@@ -81,9 +85,7 @@
 }
 
 .banner-content{
-  border: 1px solid yellow;
   max-width: 520px;
-  /* margin: auto 180px; */
 }
 .banner-title{
   color: rgb(255, 255, 255);
@@ -95,11 +97,11 @@
   color: rgba(255, 255, 255, 0.5);
   font-size: 1rem;
   font-weight: 400;
-  letter-spacing: 0.5px;
+  margin-top: 28px;
 }
 .btn{
   width: 200px;
-  height: 50px;
+  height: 40px;
   border: 2px solid white;
   border-radius: 42px;
   color: white;
@@ -109,14 +111,12 @@
   margin-top: ;
 }
 .banner-img{
-  border: 1px solid salmon; 
   height: 480px;
 }
 
 /* change your habits section */
 .habit-container{
   max-width: 1060px;
-  border: 2px solid red;
   margin: 90px auto;
 }
 .habits{
@@ -137,7 +137,6 @@
   font-size: 0.90rem;
   font-weight: 400;
   letter-spacing: 0.3px;
-  margin
 }
 .img-container{
   display: flex;
@@ -181,19 +180,15 @@
   
 }
 .runing-content{
-  border: 0.5px solid aquamarine;
   width: 430px;
   margin-left: 45px;
   margin-top: 32px;
   margin-bottom: 32px;
-  /* padding: 32px 0px 32px 45px; */
 }
 .title{
   color: rgb(255, 255, 255);
   font-size: 3rem;
   font-weight: 900;
-  line-height: 120%;
-  margin-top: 0px;
   margin-bottom: 5px;
 }
 .description{
@@ -210,5 +205,113 @@
 .run-img{
   width: 350px;
   height: 300px;
+  border-radius: 18px;
+}
+
+/* bmi section */
+
+.bmi-container{
+  background: rgba(255, 255, 255, 0.1);
+}
+.bmi-content{
+  width: 1060px;
+  margin: 0 auto;
+  text-align: center;
+  margin-bottom: 70px;
+}
+
+.bmi-calculator-container{
+  display: flex;
+  justify-content: space-between;
+  width: 1060px;
+  margin: 0px auto;
+  padding: 30px 0px;
+}
+
+table{
+  border-collapse: collapse;
+  
+}
+th{
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  padding: 10px;
+  color: white;
+}
+td{
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  padding: 15px;
+  color: rgba(255, 255, 255, 0.5);
+}
+.calculate-your-BMI{
+  width: 570px;
+  
+}
+.bmi-chat-title{
+  color: rgb(255, 255, 255);
+  font-size: 1.70rem;
+  font-weight: 900;
+  margin-bottom: 20px;
+}
+
+.bmi-chat-description{
+  color: rgba(255, 255, 255, 0.5);
+  font-size: 0.80rem;
+  font-weight: 400;
+  margin: 14px 0px;
+}
+
+.bmi-input-container{
+  
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 5px;
+ 
+}
+
+.input-text{
+  border-radius: 8px;
+  padding: 3px 20px 3px 10px;
+  background: rgba(255, 255, 255, 0.1);;
+
+}
+
+.select{
+  height: 25px;
+  border-radius: 8px;
+  padding-left: 10px;
+  color: gray;
+  background: rgba(255, 255, 255, 0.1);
+}
+.select-tow{
+  height: 25px;
+  border-radius: 8px;
+  padding-left: 10px;
+  color: gray;
+  background: rgba(255, 255, 255, 0.1);
+  grid-column: span 2;
+}
+
+
+.trainer-container{
+  width: 1060px;
+  margin: 0 auto;
+  
+  margin-top: 75px;
+}
+.trainer-content{
+  text-align: center;
+  margin-bottom: 50px;
+}
+.trainer-img-container{
+  display: grid;
+  grid-template-columns: repeat(3,1fr);
+  gap: 20px ;
+  background: rgba(255, 255, 255, 0.1);
+  padding: 20px;
+  border-radius: 18px;
+}
+.trainer-img{
+  width: 325.6px;
+  height: 265px;
   border-radius: 18px;
 }
