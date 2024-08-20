@@ -112,3 +112,60 @@
   border: 1px solid salmon; 
   height: 480px;
 }
+
+/* change your habits section */
+.habit-container{
+  max-width: 1060px;
+  border: 2px solid red;
+  margin: 90px auto;
+}
+.habits{
+  margin: 0 284px;
+  display: flex;
+  flex-direction: column;
+  justify-items: center;
+  text-align: center;
+}
+.habit-title{
+  color: white;
+  font-size: 3rem;
+  font-weight: 900;
+  margin-bottom: 5px;
+}
+.habit-description{
+  color: white;
+  font-size: 0.90rem;
+  font-weight: 400;
+  letter-spacing: 0.3px;
+  margin
+}
+.img-container{
+  display: flex;
+  justify-items: center;
+  text-align: center;
+}
+.img-title{
+  color: rgb(255, 255, 255);
+  font-size: 1rem;
+  font-weight: 600;
+  text-align: center;
+}
+.img-description{
+  color: rgba(255, 255, 255, 0.5);
+  font-size: 0.90rem;
+  font-weight: 400;
+  letter-spacing: 0.3px;
+  text-align: center;
+}
+.movement-img{
+  width: 200px;
+  height: 250px;
+  border: 0.5px solid steelblue;
+}
+.images{
+  margin-top: 30px;
+  border: 2px solid rgba(255, 255, 255, 0.5);
+  border-radius: 100%;
+}
+
+/* running section */
