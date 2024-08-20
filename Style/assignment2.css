@@ -291,6 +291,7 @@ td{
   grid-column: span 2;
 }
 
+/* trainer section done */
 
 .trainer-container{
   width: 1060px;
@@ -316,4 +317,62 @@ td{
   border-radius: 18px;
 }
 
-/* ta */
+/* footer section */
+
+footer{
+  color: aliceblue;
+  background: rgba(255, 255, 255, 0.1);
+  margin-top: 50px;
+  padding: 50px;
+}
+
+.footer-container{
+  width: 1060px;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  margin: 0 auto;
+
+  margin-bottom: 70px;
+}
+.footer-sc{
+  margin-right: 200px;
+  width: 440px;
+  border: 1px solid blue;
+}
+.footer-title{
+  color: rgb(230, 83, 60);
+  font-size: 4rem;
+  font-weight: 800;
+}
+.footer-description{
+  color: rgba(255, 255, 255, 0.5);
+  font-size: 0.80rem;
+  font-weight: 400;
+  line-height: 20px;
+  margin-top: 18px;
+}
+.About-section{
+  width: 150px;
+  margin: 0px 0px 0px 0px;
+}
+.Abouts-section{
+  width: 150px;
+  margin: 0px 0px 0px 35px;
+}
+.Abouts-title{
+  color: rgb(255, 255, 255);
+  font-size: 1.5rem;
+  font-weight: 700;
+}
+.Abouts{
+  display: flex;
+  flex-direction: column;
+  margin-top: 30px;
+
+}
+.text{
+  text-decoration: none;
+  color: rgba(255, 255, 255, 0.5);
+  margin-bottom: 18px;
+}
+
